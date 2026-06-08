@@ -4,7 +4,7 @@
 "E2E encrypted files","both","Yes","No","No","CSE on Enterprise Plus only","Customer Key on E5 only","No","Yes (attachments in chats)","n/a","Yes (in E2E chats)","No","Yes (attachments in E2E chats)"
 "Can the vendor read your content?","both","No","Yes","Yes","Yes (default tiers)","Yes (default tiers)","Yes","No","Yes (carrier reads all)","No (content); Yes (metadata)","Yes","No (content); Yes (metadata)"
 "Send to a non-platform recipient via email (encrypted)","workspace","Yes (encrypted digest)","No","Shared link (cleartext)","Yes (cleartext)","No","No","No","n/a","n/a","n/a","n/a"
-"Group key rotation on member churn","both","Yes (MLS)","No","No","No","No","No","Yes","n/a","Yes (Signal Protocol groups)","n/a","Yes (Signal Protocol)"
+"Group key rotation on member churn","both","Yes (Sender-Key rotation)","No","No","No","No","No","Yes","n/a","Yes (Signal Protocol groups)","n/a","Yes (Signal Protocol)"
 "Message TTL / auto-expiration","both","Yes, every message","Workspace retention policies","No","Retention policies","Retention policies","Premium, channel-level","Yes","No","Disappearing messages (opt-in per chat)","No","Disappearing messages (opt-in per chat)"
 "Per-vault key isolation","workspace","Yes","No (workspace-wide)","No","No","No","No","n/a","n/a","No (account-wide keys)","n/a","No (account-wide keys)"
 "Recovery without vendor-held keys","both","Yes (Shamir + WebAuthn)","No (password reset by vendor)","No","No","No (AD reset)","No","Yes (PIN)","n/a","Encrypted backups (opt-in PIN)","No (password reset)","Encrypted backups (opt-in PIN)"
@@ -14,3 +14,4 @@
 "Contact list visible to vendor","messaging","No (encrypted client-side)","—","—","—","—","—","No (kept on device)","Yes (carrier address book sync varies)","Yes (Facebook contacts + uploaded)","Yes (entire network is the address book)","Yes (full phone-book upload by default)"
 "Contact lookup uses keyed HMAC (vs. cleartext email)","messaging","Yes (email_hmac)","—","—","—","—","—","Yes (private contact discovery via SGX)","n/a","No (cleartext)","No (cleartext)","No (cleartext phone numbers uploaded)"
 "Sealed-sender (vendor can't see who sent the message)","messaging","No (roadmap — see PRD)","—","—","—","—","—","Yes","No (carrier sees everything)","No","No","No"
+"Post-quantum hybrid key agreement (1:1)","messaging","Yes (hybrid)","n/a","n/a","n/a","n/a","n/a","Yes (PQXDH)","No","Not announced","No","Not announced"

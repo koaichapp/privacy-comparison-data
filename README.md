@@ -2,7 +2,7 @@
 
 An **open dataset** comparing encrypted-workspace and secure-messaging vendors across privacy-architecture attributes: end-to-end encryption surface, key custody, metadata posture, recovery model, and more.
 
-**10 vendors × 15 attributes.** Compiled from public vendor documentation.
+**10 vendors × 16 attributes.** Compiled from public vendor documentation.
 
 - 📊 **Human-readable matrix:** https://koaich.com/compare/matrix-2026
 - 🔌 **Live JSON endpoint:** https://koaich.com/data/competitor-matrix.json
