@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it with attribution to Koaich (CC-BY 4.0)."
+title: "Encrypted Workspace & Messaging Vendor Comparison (2026)"
+abstract: "An open dataset comparing 10 workspace and secure-messaging vendors across 16 privacy-architecture attributes — key custody, end-to-end encryption surface, metadata posture, recovery model, and post-quantum key agreement."
+type: dataset
+authors:
+  - name: "Koaich"
+    website: "https://koaich.com"
+url: "https://koaich.com/compare/matrix-2026"
+repository: "https://github.com/koaichapp/privacy-comparison-data"
+license: CC-BY-4.0
+version: "2026"
+keywords:
+  - privacy
+  - end-to-end encryption
+  - secure messaging
+  - key custody
+  - vendor comparison
+  - post-quantum
